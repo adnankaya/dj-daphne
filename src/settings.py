@@ -29,7 +29,7 @@ load_dotenv(os.path.join(BASE_DIR, '.env'))
 SECRET_KEY = 'django-insecure-my0psis(ri5pgzq=$luya=7!%+zn89(c#!lh0np%st0akhanz0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get(bool(int("DEBUG_MODE")), True)
 
 ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "*").split(" ")
 
