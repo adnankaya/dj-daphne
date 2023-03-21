@@ -136,8 +136,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 ASGI_APPLICATION = "src.asgi.application"
 
-
-
 #  Redis
 REDIS_USERNAME = os.environ.get('REDIS_USERNAME')
 REDIS_PASSWORD = os.environ.get('REDIS_PASSWORD')

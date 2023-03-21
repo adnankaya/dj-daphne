@@ -1,5 +1,11 @@
 # Dj-daphne
 
+> 
+    Project: chat
+    Deployment: Digital Ocean App Platform
+    Tech stack: django, django channels, daphne, redis
+---
+
 ```bash
 
 pip install -r requirements.txt
